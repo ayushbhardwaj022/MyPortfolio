@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush Bhardwaj — Full Stack .NET Developer | C# & ASP.NET Core</title>
+<meta name="description" content="Ayush Bhardwaj — Full Stack .NET Developer. B.Tech CSE graduate, Industrial Trainee at CS Infotech, Chandigarh.">
+
+<!-- Open Graph tags: makes link previews look good when shared on LinkedIn/WhatsApp/etc. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ayush Bhardwaj — Full Stack .NET Developer">
+<meta property="og:description" content="B.Tech CSE graduate and full-stack .NET developer with hands-on experience building production-style web applications on ASP.NET Core, EF Core & SQL Server.">
+<meta property="og:image" content="assets/profile.png">
+<!-- TODO: once this is deployed, add the live URL here e.g. <meta property="og:url" content="https://ayushbhardwaj.dev"> -->
+
+<!-- Simple favicon (a green dot matching the accent color) — swap for a custom icon anytime -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%237fbfa8%22/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bgCanvas" style="position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0; opacity:0.6;"></canvas>
+
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<header>
+  <nav>
+    <div class="logo">code<span>.ayush</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-flex">
+      <div class="hero-left">
+        <div class="eyebrow">open to software engineer &amp; full-stack roles</div>
+        <h1>Ayush Bhardwaj builds <em>full‑stack .NET</em> systems that ship end to end.</h1>
+        <p class="lede">B.Tech CSE graduate and full-stack .NET developer with 6 months of hands-on industry experience at CS Infotech, Chandigarh — building role-based, production-style web applications on ASP.NET Core, EF Core &amp; SQL Server.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="assets/Ayush_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View Resume 👁️</a>
+          <a href="assets/Ayush_Resume.pdf" download="Ayush_Bhardwaj_Resume.pdf" type="application/pdf" class="btn btn-ghost">Download Resume 📥</a>
+          <a href="https://www.linkedin.com/in/ayushbhardwaj02" target="_blank" class="btn btn-ghost">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo" id="heroPhoto">
+        <img src="assets/profile.png" alt="Ayush Bhardwaj">
+      </div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">6+</div>
+        <div class="label">Months Experience</div>
+      </div>
+      <div class="stat">
+        <div class="num">2</div>
+        <div class="label">Major Projects</div>
+      </div>
+      <div class="stat">
+        <div class="num">4</div>
+        <div class="label">User Roles Built</div>
+      </div>
+      <div class="stat">
+        <div class="num">12+</div>
+        <div class="label">Technologies</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">01.</span>
+      <h2 class="sec-title">About Me</h2>
+    </div>
+    <div class="about-grid reveal">
+      <div>
+        <p>I'm a <strong>B.Tech Computer Science &amp; Engineering</strong> graduate from Maharaja Agrasen University with 6 months of hands-on experience as an <strong>Industrial Trainee at CS Infotech, Chandigarh</strong>, where I built and maintained a live ASP.NET Core MVC e-commerce platform end to end — from database schema to UI to deployment-ready code.</p>
+        <p>I work mainly in the <strong>.NET ecosystem</strong> — ASP.NET Core MVC/Web API, Entity Framework Core, and SQL Server — and I care about writing code that's clean and maintainable, not just code that works. On the bookstore platform I shipped, I used the <strong>Repository and Unit of Work patterns</strong> over EF Core, a layered N-Tier architecture, and role-based access for four different user types, along with real payment integrations (Stripe, PayPal) and social login.</p>
+        <p>Right now I'm looking for a <strong>Software Engineer / Full-Stack Developer</strong> role where I can keep building real, production-grade systems and grow alongside a strong engineering team.</p>
+      </div>
+      <div class="info-card">
+        <div class="row"><span class="k">Location</span><span class="v">Pinjore, Panchkula</span></div>
+        <div class="row"><span class="k">Focus</span><span class="v">Full Stack — .NET / SQL Server</span></div>
+        <div class="row"><span class="k">Status</span><span class="v">Open to full-time roles</span></div>
+        <div class="row"><span class="k">Degree</span><span class="v">B.Tech CSE Graduate</span></div>
+        <div class="row"><span class="k">Phone</span><span class="v">+91 82950 36632</span></div>
+        <div class="row"><span class="k">GitHub</span><span class="v">@ayushbhardwaj022</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">02.</span>
+      <h2 class="sec-title">Experience</h2>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-when">Jul 2025 — Dec 2025</div>
+      <div>
+        <div class="exp-role">Industrial Trainee</div>
+        <div class="exp-org">CS Infotech, Chandigarh</div>
+        <ul class="exp-list">
+          <li>Developed and maintained full-stack web applications using ASP.NET Core MVC for a live e-commerce platform, ensuring a seamless end-to-end user experience.</li>
+          <li>Designed and optimized relational database schemas in SQL Server, implementing stored procedures, joins, and views that improved query performance and data integrity.</li>
+          <li>Implemented secure user authentication and authorization using Entity Framework and ASP.NET Identity, protecting sensitive user data across checkout and account flows.</li>
+          <li>Conducted API testing and debugging with Postman, achieving 100% endpoint reliability and adherence to REST standards.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">03.</span>
+      <h2 class="sec-title">Technical Skills</h2>
+    </div>
+    <div class="skill-groups reveal">
+      <div class="skill-group">
+        <h4>Languages &amp; Frontend</h4>
+        <div class="chip-row">
+          <span class="chip">C#</span>
+          <span class="chip">Python</span>
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Bootstrap</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Backend</h4>
+        <div class="chip-row">
+          <span class="chip">ASP.NET Core MVC</span>
+          <span class="chip">ASP.NET Core Web API</span>
+          <span class="chip">ASP.NET Core Identity</span>
+          <span class="chip">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Data Access</h4>
+        <div class="chip-row">
+          <span class="chip">Entity Framework Core</span>
+          <span class="chip">LINQ</span>
+          <span class="chip">Repository Pattern</span>
+          <span class="chip">Unit of Work</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Database &amp; Tools</h4>
+        <div class="chip-row">
+          <span class="chip">MS SQL Server</span>
+          <span class="chip">Stored Procedures</span>
+          <span class="chip">Postman</span>
+          <span class="chip">Visual Studio</span>
+          <span class="chip">Git &amp; GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">04.</span>
+      <h2 class="sec-title">Featured Projects</h2>
+    </div>
+
+    <div class="project-card reveal">
+      <img src="assets/pustakghar-screenshot.png" alt="PustakGhar bookstore homepage screenshot" class="project-screenshot">
+      <div class="project-top">
+        <span class="badge">Full Stack — N-Tier Architecture</span>
+      </div>
+      <div class="project-title">PustakGhar — E-Commerce Book Store</div>
+      <p class="project-desc">A role-based online bookstore platform built with ASP.NET Core MVC, using a layered N-Tier architecture with separate Models, Data Access, and Web layers.</p>
+      <ul class="project-list">
+        <li>Repository and Unit of Work patterns over EF Core for maintainable, testable data access.</li>
+        <li>ASP.NET Core Identity with role-based authorization for 4 roles — Admin, Company, Individual, Employee — plus Google/Facebook login.</li>
+        <li>Dual payment gateways (Stripe &amp; PayPal) with a session-based shopping cart and full order-management flow.</li>
+        <li>Code-First SQL Server schema via EF Core Migrations covering products, orders, carts, and identity tables.</li>
+        <li>Admin panel for product, category, and user management with image upload; responsive UI in HTML, CSS, JS &amp; Bootstrap.</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">ASP.NET Core MVC</span>
+        <span class="tag">EF Core</span>
+        <span class="tag">SQL Server</span>
+        <span class="tag">Stripe / PayPal</span>
+        <span class="tag">Identity</span>
+      </div>
+      <div class="project-links">
+        <a href="https://ayush0202-001-site1.etempurl.com" target="_blank">↗ Live Demo</a>
+        <!-- Confirmed: github.com/ayushbhardwaj022/pustakghar -->
+        <a href="https://github.com/ayushbhardwaj022/pustakghar" target="_blank">⌥ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-top">
+        <span class="badge">Backend API</span>
+      </div>
+      <div class="project-title">National Park API</div>
+      <p class="project-desc">A RESTful API for managing national park data with full CRUD endpoints, built on ASP.NET Core Web API.</p>
+      <ul class="project-list">
+        <li>Full CRUD endpoints — Add, Update, Delete, View — following REST conventions.</li>
+        <li>Entity Framework and SQL Server stored procedures for data access.</li>
+        <li>Every endpoint validated and documented with Postman.</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">ASP.NET Core Web API</span>
+        <span class="tag">Entity Framework</span>
+        <span class="tag">SQL Server</span>
+        <span class="tag">Postman</span>
+      </div>
+      <div class="project-links">
+        <!-- Confirmed: github.com/ayushbhardwaj022/national-park-api -->
+        <a href="https://github.com/ayushbhardwaj022/national-park-api" target="_blank">⌥ GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">05.</span>
+      <h2 class="sec-title">Education &amp; Certifications</h2>
+    </div>
+    <div class="edu-item reveal">
+      <div class="edu-when">Aug 2022 — May 2026</div>
+      <div>
+        <div class="edu-title">Bachelor of Technology — Computer Science &amp; Engineering</div>
+        <div class="edu-org">Maharaja Agrasen University, Baddi, HP</div>
+        <div class="edu-meta">Core Coursework: Data Structures, Algorithms, Databases, Computer Systems, Machine Learning</div>
+      </div>
+    </div>
+    <div class="edu-item reveal">
+      <div class="edu-when">2020 — 2022</div>
+      <div>
+        <div class="edu-title">Senior Secondary (Non-Medical)</div>
+        <div class="edu-org">Government Model Senior Secondary School, Sector 27, Chandigarh</div>
+      </div>
+    </div>
+    <div class="edu-item reveal">
+      <div class="edu-when">2020</div>
+      <div>
+        <div class="edu-title">Matriculation</div>
+        <div class="edu-org">Noble High School, Pinjore, Panchkula</div>
+      </div>
+    </div>
+
+    <div style="margin-top:44px;">
+      <div class="sec-head" style="margin-bottom:24px;"><span class="sec-num">06.</span><h2 class="sec-title" style="font-size:24px;">Certifications</h2></div>
+      <div class="cert-strip reveal" style="grid-template-columns:1fr; gap:16px;">
+        <div class="cert" style="text-align:left; display:flex; gap:16px; align-items:flex-start; padding:22px 20px;">
+          <div class="ico" style="margin-bottom:0;">◆</div>
+          <div>
+            <div class="name">ASP.NET Core, MEAN &amp; MERN Training</div>
+            <div class="cert-issuer">CS Infotech Soft Solutions, Chandigarh · Jul 2025 – Dec 2025</div>
+            <div class="cert-issuer">Project: E-Commerce (PustakGhar) · Performance: Excellent</div>
+            <a href="assets/cs-infotech-cert.jpg" target="_blank" class="tag" style="margin-top:10px; display:inline-block;">View Certificate →</a>
+          </div>
+        </div>
+        <div class="cert" style="text-align:left; display:flex; gap:16px; align-items:flex-start; padding:22px 20px;">
+          <div class="ico" style="margin-bottom:0;">◆</div>
+          <div>
+            <div class="name">Python Training</div>
+            <div class="cert-issuer">Codevibez IT Solutions (OPC) Pvt. Ltd., Mohali · 17 Jun 2024 – 30 Jul 2024</div>
+            <a href="assets/codevibez-python-cert.png" target="_blank" class="tag" style="margin-top:10px; display:inline-block;">View Certificate →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">07.</span>
+      <h2 class="sec-title">Contact</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <div>
+        <h2>Let's build<br>something together.</h2>
+        <p>Open to Software Engineer and Full-Stack Developer roles. Reach out directly — I usually reply within a day.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:ayushbhardwaj0202@gmail.com" style="display:flex; justify-content:space-between; width:100%;"><span class="k">Email</span><span class="arrow">ayushbhardwaj0202@gmail.com →</span></a></li>
+        <li><a href="tel:+918295036632" style="display:flex; justify-content:space-between; width:100%;"><span class="k">Phone</span><span class="arrow">+91 82950 36632 →</span></a></li>
+        <li><a href="https://www.linkedin.com/in/ayushbhardwaj02" target="_blank" style="display:flex; justify-content:space-between; width:100%;"><span class="k">LinkedIn</span><span class="arrow">/in/ayushbhardwaj02 →</span></a></li>
+        <li><a href="https://github.com/ayushbhardwaj022" target="_blank" style="display:flex; justify-content:space-between; width:100%;"><span class="k">GitHub</span><span class="arrow">@ayushbhardwaj022 →</span></a></li>
+        <li><span class="k">Location</span><span class="arrow" style="color:var(--ink-soft)">Pinjore, Panchkula</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Ayush Bhardwaj — Built with HTML, CSS &amp; JavaScript</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
